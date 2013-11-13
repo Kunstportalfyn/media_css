@@ -1,0 +1,6 @@
+name = Media CSS
+description = CSS addition for the media module
+core = 7.x
+package = Other
+dependencies[] = media
+stylesheets[all][] = css/media.css
