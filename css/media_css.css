@@ -1,0 +1,71 @@
+/* 
+    Document   : media
+    Created on : Nov 12, 2013, 2:58:34 PM
+    Author     : gorkha
+    Description: Styles for the media module
+*/
+
+ul#media-browser-library-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+ul#media-browser-library-list li {
+  float: left;
+  height: 120px;
+  width: 100px !important;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #666;
+  font-size: 10px;
+  position: relative;
+}
+
+ul#media-browser-library-list li div.media-item {
+  border: 0;
+  padding: 0;
+  position: static;
+}
+
+ul#media-browser-library-list li div.media-item .media-thumbnail {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul#media-browser-library-list li div.media-item .media-thumbnail img {
+
+}
+
+ul#media-browser-library-list li div.media-item .media-thumbnail label {
+  width: 100px;
+}
+
+#media-browser-page .views-exposed-widgets > div{
+  padding-top: 0 !important;
+  bottom: 2px;
+}
+
+#media-browser-page .views-exposed-widgets > div > div > div.form-item,
+#media-browser-page .views-exposed-widgets > div> div.form-item
+{
+  padding: 0 !important;
+}
+
+#media-browser-page #branding {
+  padding-top: 5px !important;
+}
+
+#media-browser-page #branding div:first-child {
+  position: absolute;
+  bottom: 0;
+}
+
+iframe {
+  padding: 0 !important;
+  margin: 0 !important;
+}
