@@ -30,6 +30,12 @@ ul#media-browser-library-list li div.media-item {
   position: static;
 }
 
+ul#media-browser-library-list li div.media-item.selected {
+  border: 2px solid red;
+  width: 102px;
+  margin-left: -3px;
+}
+
 ul#media-browser-library-list li div.media-item .media-thumbnail {
   height: 100px;
   width: 100px;
